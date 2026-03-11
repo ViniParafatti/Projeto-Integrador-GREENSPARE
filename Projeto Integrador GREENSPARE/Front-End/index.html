@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenspare | Wireframe Real</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">🌿 Greenspare</div>
+        <nav>
+            <a href="#home">HOME</a>
+            <a href="#simulador">ECONOMIA</a>
+            <a href="#investimento">INVESTIMENTO</a>
+            <a href="#sobre">SOBRE NÓS</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        
+        <section id="home" class="wireframe-block hero-bg">
+            <div class="block-label">1. HOME</div>
+            <h1> 🌿 GREENSPARE </h1>
+            <p>SUSTENTABILIDADE E ECONOMIA PARA VOCÊ</p>
+            
+            <div class="hero-icons">
+                <div class="icon-box">
+                    <div class="icon-placeholder">🏠☀️</div>
+                    <strong>Simulador de Economia</strong>
+                    <p>Economize nas contas através de cisternas e energia solar.</p>
+                    <a href="#simulador" class="wire-btn">SIMULAR AGORA</a>
+                </div>
+                <div class="icon-box">
+                    <div class="icon-placeholder">📈🌳</div>
+                    <strong>Plataforma de Investimento</strong>
+                    <p>Conheça o mercado de empresas verdes e sua rentabilidade.</p>
+                    <a href="#investimento" class="wire-btn">CONHECER MERCADO</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="simulador" class="wireframe-block">
+            <div class="block-label">2. SIMULADOR DE ECONOMIA</div>
+            <h2>CALCULE SUA ECONOMIA</h2>
+            
+            <div class="calculator-container">
+                <div class="input-panel">
+                    <h3>SUAS CONTAS ATUAIS</h3>
+                    <div class="grid-2">
+                        <div class="field">
+                            <label>CONTA DE LUZ (R$):</label>
+                            <input type="text">
+                        </div>
+                        <div class="field">
+                            <label>CONSUMO (kWh):</label>
+                            <input type="text">
+                        </div>
+                        <div class="field">
+                            <label>CONTA DE ÁGUA (R$):</label>
+                            <input type="text">
+                        </div>
+                        <div class="field">
+                            <label>CONSUMO (m³):</label>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <button class="action-btn">CALCULAR ECONOMIA</button>
+                </div>
+
+                <div class="result-panel">
+                    <h3>RESULTADOS ESTIMADOS</h3>
+                    <div class="bar-chart">
+                        <div class="bar-row">SEM AÇÕES <div class="bar-grey"></div></div>
+                        <div class="bar-row">COM AÇÕES <div class="bar-green"></div></div>
+                    </div>
+                    <ul class="result-list">
+                        <li>ECONOMIA COM CISTERNA: <strong>[VALOR]</strong></li>
+                        <li>ECONOMIA COM ENERGIA SOLAR: <strong>[VALOR]</strong></li>
+                        <li class="total">ECONOMIA TOTAL: <strong>[VALOR]</strong></li>
+                    </ul>
+                    <button class="wire-btn-outline">SOLICITAR ORÇAMENTO</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="investimento" class="wireframe-block">
+            <div class="block-label">3. SIMULADOR DE INVESTIMENTO</div>
+            <h2>INVESTIMENTOS EM EMPRESAS VERDES</h2>
+            <div class="invest-container">
+                <div class="company-list">
+                    <div class="wire-card">
+                        <span>🍃 EcoPower</span> <div class="mini-graph">📈</div>
+                    </div>
+                    <div class="wire-card">
+                        <span>💧 AquaRenew</span> <div class="mini-graph">📈</div>
+                    </div>
+                    <div class="wire-card">
+                        <span>🏗️ GreenBuild</span> <div class="mini-graph">📈</div>
+                    </div>
+                </div>
+                <div class="sim-invest">
+                    <label>VALOR DO INVESTIMENTO (R$):</label>
+                    <input type="text" placeholder="Ex: 1000.00">
+                    <button class="action-btn">VER RESULTADOS</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="wireframe-block">
+            <div class="block-label">4. SOBRE NÓS</div>
+            <h2>NOSSA EQUIPE</h2>
+            <p class="mission-text">
+                O <strong>Greenspare</strong> nasceu da ideia de que ser sustentável deve ser acessível e lucrativo. 
+                Nossa missão é conectar pessoas ao mercado verde através de dados reais e tecnologia.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>HOME | ECONOMIA | INVESTIMENTO | SOBRE NÓS</p>
+        <small>© 2026 Greenspare</small>
+    </footer>
+
+</body>
+</html>
